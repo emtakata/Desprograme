@@ -17,10 +17,11 @@ header{
 
 #logo, nav{
 	padding: 10px;
-	h1{
+}
+
+h1{
 	color: #4e4e4e;
 	font-size: 40px;
-	}
 }
 
 .branco{
@@ -32,7 +33,50 @@ text-decoration: none;
 }
 
 a:link,a:visited {
-	color:#fff;
+	color: #fff;
 	padding: 8px 12px;
 }
 
+a:hover {
+color: #f7b600;
+background: #fff;
+}
+
+section{
+	width: 920px;
+	margin: 0 auto;
+}
+
+#post{
+	width: 660px;
+	float: left;
+}
+
+#sidebar{
+	width: 240px;
+	float: right;
+}
+
+.postagem{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+	text-align: left;
+}
+
+img{
+	width: 620px;
+}
+
+section{
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+footer{
+	text-align: center;
+	clear: both;
+	background: #ccc;
+	padding: 15px;
+}
